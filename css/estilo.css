@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0
+    ;
+}
+
+/* Body */
+
+body{
+    background-color:#19A7CE
+}
+
+
+/* Header */
+
+header {
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 10px 20px;     
+    
+}
+
+ .logoFilial {
+    width: 180px;
+    border-radius: 50%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+        
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* main */
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: ;
+    margin: 20px 0px;
+    color: white;
+    font-size: 50px;
+}
+
+nav ul li:hover {
+  color: lightblue;
+  background-color: black;
+  border-radius: 98%;
+}
+div img {
+    border: 4px solid #333;
+    border-radius: 10px;
+    display: block;
+    width: 100% ;
+    height: auto;
+
+}
+
+/* footer*/
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    border-top: 3px solid white;
+    text-align: center;
+}
+
+.NuComision {
+    border: 4px solid #333;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+    font-size: 30px;
+}
+
+.nuestracomision p {
+    background-color: white;
+    color: #19A7CE;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+/*   iframe*/
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+
+/* formulario */
+
+form {
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px
+    color #333 
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #19A7CE;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.btnformulario {
+    background-color:#333 ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+p {
+    text-align: center;
+    text-decoration: ;
+    margin: 20px 0px;
+    color: white;
+    font-size: 35px;
+
+}
+
+@media only screen and (min-width:320px) and (max-width: 700px) 
+p { font-size: 20px
+
+}

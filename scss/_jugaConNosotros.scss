@@ -1,0 +1,14 @@
+.mapFulbito {
+    margin-top: 10px;
+    box-shadow: 1px 1px 34px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 34px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 34px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+}
+
+@media (min-width: 1024px) {
+    .mapFulbito {
+        width: 50%;
+        height: 450px;
+    }
+}
